@@ -31,7 +31,7 @@ I have created a read me generator with node and npm inquirer.
 
 ## Deployed Link
 
-* [See Live Site](#)https://github.com/umeramalek/readme-generator
+* [See Live Site] (#)https://github.com/umeramalek/readme-generator
 
 
 

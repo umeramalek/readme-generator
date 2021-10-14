@@ -1,7 +1,7 @@
-## Read me generator
+## ReadME generator
  
 
-[![License: ODbL](https://img.shields.io/badge/License-ODbL-brightgreen.svg)](https://opendatacommons.org/licenses/odbl/) 
+[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC) 
 ---
 
 ## Table of Contents
@@ -14,19 +14,19 @@
 - [Questions](#questions)
 
 ## Description
-Created a read me generator
+This is a readme generator using npm 
 
 
 ## Installation
-node install inquirer
+npm i inquirer
 
 
 ## Usage
-node index js
+use command node index.js to run
 
 
 ## License
-This application is covered under ODbl license.
+This application is covered under ISC license.
 
 
 ## Contributing
@@ -40,7 +40,7 @@ undefined
 ## Questions
 If any additional questions reach me at:
 
-umeramalek796@gmail.com
+umeramalek796@gamil.com
 www.google.com
 
 
