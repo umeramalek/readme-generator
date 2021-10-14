@@ -3,6 +3,7 @@
 function renderLicenseBadge(license) {
   // if user chooses MIT, then return the MIT badge 
   // [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  // button shows up if you preview it
   console.log(license)
   if (license.license === "MIT"){
     return "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
@@ -21,27 +22,69 @@ function renderLicenseBadge(license) {
   }
 }
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) {
-  // [a license](#license)
-  return "[a license](#license)"
-}
+// // TODO: Create a function that returns the license link
+// // If there is no license, return an empty string
+// function renderLicenseLink(license) {
+//   // [a license](#license)
+//   return "[renderLicenseBadge](#license)"
+// }
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {}
+// // TODO: Create a function that returns the license section of README
+// // If there is no license, return an empty string
+// function renderLicenseSection(license) {
+
+// }
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# 
-  ${renderLicenseBadge(data)}
+  return `## ${data.title}
+ 
+
+${renderLicenseBadge(data)} 
+---
+
+## Table of Contents
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
+
+## Description
+${data.description}
+
+
+## Installation
+${data.installation}
+
+
+## Usage
+${data.usage}
+
 
 ## License
- ${renderLicenseLink(data)}
+This application is covered under the ${data.license} license.
+
+
+## Contributing
+${data.contributing}
+
+
+## Tests
+${data.tests}
+
+
+## Questions
+If any additional questions reach me at:
+
+${data.email}
+${data.github}
 
 
 `;
 }
+
 
 module.exports = generateMarkdown;
