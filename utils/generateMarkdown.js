@@ -65,7 +65,7 @@ ${data.usage}
 
 
 ## License
-This application is covered under the ${data.license} license.
+This application is covered under ${data.license} license.
 
 
 ## Contributing

@@ -69,7 +69,7 @@ function init() {
         // writeData(response);
         console.log(response);
     
-        fs.writeFile('readme.md', generateMarkdown(response), (err) =>
+        fs.writeFile('./output/readme.md', generateMarkdown(response), (err) =>
         err ? console.error(err) : console.log('Success!')
     );
     
