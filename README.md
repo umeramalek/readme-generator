@@ -22,7 +22,10 @@ I have created a read me generator with node and npm inquirer.
 
 ### Images
 
-
+![](./img/photo1.png)
+![](./img/photo2.png)
+![](./img/photo3.png)
+![](./img/photo4.png)
 
 ## Built With
 
