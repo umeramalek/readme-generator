@@ -1,4 +1,4 @@
-## jknkrgj
+## Read me generator
  
 
 [![License: ODbL](https://img.shields.io/badge/License-ODbL-brightgreen.svg)](https://opendatacommons.org/licenses/odbl/) 
@@ -14,15 +14,15 @@
 - [Questions](#questions)
 
 ## Description
-jwngioej
+Created a read me generator
 
 
 ## Installation
-jngje
+node install inquirer
 
 
 ## Usage
-hbgrn
+node index js
 
 
 ## License
@@ -30,7 +30,7 @@ This application is covered under ODbl license.
 
 
 ## Contributing
-nwgnel
+umera
 
 
 ## Tests
@@ -40,7 +40,7 @@ undefined
 ## Questions
 If any additional questions reach me at:
 
-rjgnj
-ngwgo
+umeramalek796@gmail.com
+www.google.com
 
 
