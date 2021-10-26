@@ -1,7 +1,7 @@
-## ReadME generator
+## read me generator
  
 
-[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC) 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 ---
 
 ## Table of Contents
@@ -14,19 +14,19 @@
 - [Questions](#questions)
 
 ## Description
-This is a readme generator using npm 
+read me generator 
 
 
 ## Installation
-npm i inquirer
+npm inquirer package
 
 
 ## Usage
-use command node index.js to run
+node index.js
 
 
 ## License
-This application is covered under ISC license.
+This application is covered under MIT license.
 
 
 ## Contributing
@@ -40,7 +40,7 @@ undefined
 ## Questions
 If any additional questions reach me at:
 
-umeramalek796@gamil.com
-www.google.com
+umeramalek796@gmail.com
+https://github.com/umeramalek
 
 
